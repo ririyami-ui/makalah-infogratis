@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infografis: Sistematika Penulisan Makalah</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #F9FAFB;
+            color: #1F2937;
+        }
+        .flowchart-section {
+            position: relative;
+            padding-left: 2rem;
+            margin-bottom: 3rem;
+        }
+        .flowchart-item {
+            position: relative;
+            margin-bottom: 2.5rem;
+            padding: 1.5rem;
+            background-color: #FFFFFF;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+            border: 1px solid #E5E7EB;
+        }
+        .flowchart-line {
+            position: absolute;
+            left: 0.9rem;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background-color: #E5E7EB;
+        }
+        .flowchart-dot {
+            position: absolute;
+            left: 0.5rem;
+            top: 0.5rem;
+            width: 1rem;
+            height: 1rem;
+            border-radius: 9999px;
+            background-color: #059669;
+            border: 3px solid #F9FAFB;
+            z-index: 10;
+        }
+        .flowchart-item:last-child .flowchart-line {
+            height: 0;
+        }
+    </style>
+</head>
+<body class="text-stone-800">
+
+    <div class="container mx-auto p-4 md:p-8 max-w-4xl">
+        
+        <header class="text-center my-12">
+            <h1 class="text-4xl md:text-5xl font-black text-emerald-700">Sistematika Penulisan Makalah</h1>
+            <p class="text-lg md:text-xl mt-2 text-stone-600">Panduan Terstruktur untuk Karya Ilmiah Anda</p>
+            <p class="text-md md:text-lg mt-1 text-stone-500">Oleh: Ririyami, S.Kom</p>
+        </header>
+
+        <main class="space-y-16 md:space-y-24">
+
+            <section id="bagian-awal">
+                <h2 class="text-2xl md:text-3xl font-bold text-emerald-700 mb-8 text-center">I. BAGIAN AWAL</h2>
+                <p class="text-center text-stone-600 max-w-2xl mx-auto mb-10">Bagian pembuka ini berfungsi sebagai pengantar umum dan informasi identifikasi penting dari makalah Anda, memberikan kesan pertama kepada pembaca.</p>
+                <div class="flowchart-section">
+                    <div class="flowchart-line"></div>
+                    <div class="flowchart-item">
+                        <div class="flowchart-dot"></div>
+                        <h3 class="font-bold text-xl text-stone-800 mb-2">1. Halaman Judul</h3>
+                        <ul class="list-disc list-inside text-stone-600 text-sm space-y-1">
+                            <li>**Judul Makalah:** Singkat, jelas, informatif, dan menggambarkan isi. Ditulis dalam huruf kapital.</li>
+                            <li>**Nama Penulis:** Lengkap dengan nomor induk (jika ada).</li>
+                            <li>**Institusi:** Nama program studi, fakultas, dan universitas/lembaga.</li>
+                            <li>**Tujuan Penulisan (opsional):** Misalnya, "Diajukan untuk memenuhi tugas mata kuliah [nama mata kuliah]".</li>
+                            <li>**Kota dan Tahun Penulisan.**</li>
+                        </ul>
+                    </div>
+                    <div class="flowchart-item">
+                        <div class="flowchart-dot"></div>
+                        <h3 class="font-bold text-xl text-stone-800 mb-2">2. Abstrak</h3>
+                        <ul class="list-disc list-inside text-stone-600 text-sm space-y-1">
+                            <li>Ringkasan padat dari seluruh isi makalah (150-250 kata).</li>
+                            <li>Mencakup tujuan, metode (jika ada), hasil utama, dan kesimpulan penting.</li>
+                            <li>Diikuti oleh **Kata Kunci** (3-5 kata/frasa) yang relevan dengan topik.</li>
+                        </ul>
+                    </div>
+                    <div class="flowchart-item">
+                        <div class="flowchart-dot"></div>
+                        <h3 class="font-bold text-xl text-stone-800 mb-2">3. Kata Pengantar (Opsional, tapi Umum)</h3>
+                        <ul class="list-disc list-inside text-stone-600 text-sm space-y-1">
+                            <li>Penyampaian rasa syukur dan tujuan umum penulisan.</li>
+                            <li>Ucapan terima kasih kepada pihak-pihak yang membantu.</li>
+                            <li>Harapan penulis terhadap manfaat makalah.</li>
+                        </ul>
+                    </div>
+                    <div class="flowchart-item">
+                        <div class="flowchart-dot"></div>
+                        <h3 class="font-bold text-xl text-stone-800 mb-2">4. Daftar Isi</h3>
+                        <ul class="list-disc list-inside text-stone-600 text-sm space-y-1">
+                            <li>Peta navigasi makalah yang memuat semua bab dan sub-bab.</li>
+                            <li>Mencantumkan judul bab, sub-bab, dan anak sub-bab beserta nomor halaman.</li>
+                            <li>Disusun secara hierarkis (misalnya, BAB, 1., 1.1., 1.1.1.).</li>
+                        </ul>
+                    </div>
+                    <div class="flowchart-item">
+                        <div class="flowchart-dot"></div>
+                        <h3 class="font-bold text-xl text-stone-800 mb-2">5. Daftar Tabel / Daftar Gambar / Daftar Lampiran (Jika Ada)</h3>
+                        <ul class="list-disc list-inside text-stone-600 text-sm space-y-1">
+                            <li>Daftar terpisah untuk memudahkan referensi jika ada banyak tabel, gambar, atau lampiran.</li>
+                            <li>Masing-masing daftar mencantumkan nomor, judul, dan nomor halaman.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="bagian-utama">
+                <h2 class="text-2xl md:text-3xl font-bold text-emerald-700 mb-8 text-center">II. BAGIAN UTAMA (ISI MAKALAH)</h2>
+                <p class="text-center text-stone-600 max-w-2xl mx-auto mb-10">Ini adalah inti dari makalah Anda, tempat pengembangan argumen, penyajian data, dan analisis mendalam untuk menjawab rumusan masalah.</p>
+                <div class="flowchart-section">
+                    <div class="flowchart-line"></div>
+                    <div class="flowchart-item">
+                        <div class="flowchart-dot"></div>
+                        <h3 class="font-bold text-xl text-stone-800 mb-2">BAB I PENDAHULUAN</h3>
+                        <p class="text-stone-600 text-sm mb-2">Pintu gerbang makalah yang memberikan konteks dan arah pembahasan.</p>
+                        <ul class="list-disc list-inside text-stone-600 text-sm space-y-1">
+                            <li>**1.1 Latar Belakang Masalah:** Uraian fenomena, isu, atau kesenjangan yang melatarbelakangi topik.</li>
+                            <li>**1.2 Rumusan Masalah:** Pertanyaan-pertanyaan kunci yang akan dijawab, jelas dan spesifik.</li>
+                            <li>**1.3 Tujuan Penelitian/Penulisan:** Sasaran konkret yang ingin dicapai.</li>
+                            <li>**1.4 Manfaat Penelitian/Penulisan:** Kontribusi atau kegunaan hasil makalah.</li>
+                        </ul>
+                    </div>
+                    <div class="flowchart-item">
+                        <div class="flowchart-dot"></div>
+                        <h3 class="font-bold text-xl text-stone-800 mb-2">BAB II (dan seterusnya) PEMBAHASAN</h3>
+                        <p class="text-stone-600 text-sm mb-2">Bagian utama yang menyajikan analisis, data, dan argumen untuk menjawab rumusan masalah. Jumlah bab dan sub-bab disesuaikan dengan kompleksitas topik.</p>
+                        <ul class="list-disc list-inside text-stone-600 text-sm space-y-1">
+                            <li>**2.1 Kerangka Teori/Landasan Teori:** Penjelasan teori, konsep, atau model dasar analisis.</li>
+                            <li>**2.2 Metodologi Penelitian (Jika Ada Penelitian Empiris):** Rincian cara penelitian dilakukan (jenis, desain, populasi, teknik pengumpulan & analisis data).</li>
+                            <li>**2.3 Analisis Data dan Argumentasi:** Penyajian data, interpretasi, dan pembahasan mendalam yang didukung teori dan bukti.</li>
+                            <li>**(Dst.) Sub-bab selanjutnya:** Pembahasan per rumusan masalah, per aspek topik, atau per temuan.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="bagian-akhir">
+                <h2 class="text-2xl md:text-3xl font-bold text-emerald-700 mb-8 text-center">III. BAGIAN AKHIR</h2>
+                <p class="text-center text-stone-600 max-w-2xl mx-auto mb-10">Bagian penutup ini merangkum hasil pembahasan dan memberikan daftar referensi yang digunakan dalam makalah Anda.</p>
+                <div class="flowchart-section">
+                    <div class="flowchart-line"></div>
+                    <div class="flowchart-item">
+                        <div class="flowchart-dot"></div>
+                        <h3 class="font-bold text-xl text-stone-800 mb-2">PENUTUP</h3>
+                        <p class="text-stone-600 text-sm mb-2">Bagian yang merangkum hasil pembahasan dan memberikan rekomendasi.</p>
+                        <ul class="list-disc list-inside text-stone-600 text-sm space-y-1">
+                            <li>**Kesimpulan:** Intisari dari hasil pembahasan yang menjawab rumusan masalah secara singkat dan padat.</li>
+                            <li>**Saran:** Rekomendasi atau implikasi berdasarkan kesimpulan, untuk pihak terkait atau penelitian selanjutnya.</li>
+                        </ul>
+                    </div>
+                    <div class="flowchart-item">
+                        <div class="flowchart-dot"></div>
+                        <h3 class="font-bold text-xl text-stone-800 mb-2">Daftar Pustaka</h3>
+                        <ul class="list-disc list-inside text-stone-600 text-sm space-y-1">
+                            <li>Daftar lengkap semua sumber referensi (buku, jurnal, artikel, situs web, dll.) yang digunakan.</li>
+                            <li>Disusun secara alfabetis dan mengikuti gaya sitasi yang konsisten (misalnya, APA Style, MLA Style).</li>
+                        </ul>
+                    </div>
+                    <div class="flowchart-item">
+                        <div class="flowchart-dot"></div>
+                        <h3 class="font-bold text-xl text-stone-800 mb-2">Lampiran (Jika Ada)</h3>
+                        <ul class="list-disc list-inside text-stone-600 text-sm space-y-1">
+                            <li>Data atau dokumen pendukung yang tidak dimasukkan dalam bagian utama karena terlalu panjang atau spesifik.</li>
+                            <li>Contoh: Transkrip wawancara, kuesioner, foto dokumentasi, data mentah.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="text-center mt-24 py-8 border-t border-stone-200">
+            <p class="text-stone-500">Infografis ini dirancang untuk membantu Anda memahami struktur makalah.</p>
+            <p class="font-bold text-emerald-600 mt-1">Selamat Berkarya!</p>
+        </footer>
+    </div>
+</body>
+</html>
